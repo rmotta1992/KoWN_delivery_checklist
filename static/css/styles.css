@@ -1,0 +1,8 @@
+#sig-canvas {
+    border: 2px dotted #CCCCCC;
+    border-radius: 15px;
+    cursor: crosshair;
+  }
+#disclaimer {
+    font-size: 8px;
+}
