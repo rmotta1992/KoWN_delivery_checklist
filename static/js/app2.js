@@ -10,7 +10,7 @@
         };
     })();
   
-    var canvas = document.getElementById("sig-canvas");
+    var canvas = document.getElementById("canvas1");
     var ctx = canvas.getContext("2d");
     ctx.strokeStyle = "#222222";
     ctx.lineWidth = 4;
