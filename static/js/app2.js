@@ -36,9 +36,16 @@
     }, false);
   
     // Add touch event support for mobile
-    canvas.addEventListener("touchstart", function(e) {
-  
-    }, false);
+    var can = document.getElementById('canvas1');
+    var ctx = can.getContext('2d');
+
+
+    can.addEventListener( 'touchstart', onTouchStart, false);
+
+    function onTouchStart(e) {
+    ctx.fillRect(0,0,300,300);   
+    
+    }
   
     canvas.addEventListener("touchmove", function(e) {
       var touch = e.touches[0];
